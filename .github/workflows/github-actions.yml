@@ -19,7 +19,7 @@ jobs:
     - run: ls
     - run: cd test
     - run: go mod init github.com/noussydjimi/testflugel
-    - run: go test -v s3_test.go
+    - run: go test -v test
     - run: cd .. 
     - run: cd test-instance
     - run: go mod init github.com/noussydjimi/testflugel
